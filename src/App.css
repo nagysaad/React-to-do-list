@@ -6,6 +6,9 @@
   text-align: center;
   width: 50%;
 }
+.App > h2:first-of-type{
+  color: #358b2f;
+}
 
 .to-do-container{
   display: flex;
@@ -24,6 +27,7 @@
 
 .done{
   text-decoration: line-through;
+  opacity: .7;
 }
 
 .box{
