@@ -53,7 +53,7 @@ function App() {
         )}
       </ul>
 
-      <input ref={inputRef} placeholder='Enter The Task'/>
+      <input className='input' ref={inputRef} placeholder='Enter The Task'/>
         <button  onClick={  handleAddToDo }>Add Task</button>
       </div>
     </div>

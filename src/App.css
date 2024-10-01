@@ -1,5 +1,5 @@
 .App{
-  border : 1px solid #585555;
+  border : 1px solid #658f62;
   border-radius: 4px;
   margin: 50px auto;
   padding: 20px;
@@ -32,6 +32,27 @@
   align-items: center;
 }
 
+.box > li{
+  color : #358b2f;
+}
+
 .box span{
   cursor: pointer;
+}
+
+.App .input{
+  padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #658f62;
+    border-radius: 2px;
+    outline: none;
+}
+
+.App button{
+  padding: 5px;
+  border: 1px solid #358b2f ;
+  background-color: #358b2f;
+  border-radius: 2px;
+  color: #fff !important;
+  font-weight: bold;
 }
